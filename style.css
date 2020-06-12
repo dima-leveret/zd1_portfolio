@@ -1,0 +1,184 @@
+/* Background pattern from Toptal Subtle Patterns */
+body
+{
+    background-image: url("back.png");
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#container
+{
+    
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#rectangle1
+{
+    width: 1480px;
+    height: 124px;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+}
+
+#rectangle2
+{
+    text-align: center;
+}
+
+.tile1
+{
+    margin: 10px;
+    width: 350px;
+    height: 104px;
+    float: left;
+    background-color:#993399 ;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.tile1:hover
+{
+    background-color: #882288;
+}
+
+.tile2
+{
+    margin: 10px;
+    width: 350px;
+    height: 104px;
+    float: left;
+    background-color: #009973;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.tile2:hover
+{
+    background-color: #008862;
+}
+
+.tile3
+{
+    margin: 10px;
+    width: 350px;
+    height: 104px;
+    float: left;
+    background-color: #ffa31a;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.tile3:hover
+{
+    background-color: #ff9900;
+}
+
+.tile4
+{
+    margin: 10px;
+    width: 350px;
+    height: 104px;
+    float: left;
+    background-color: #ff531a;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.tile4:hover
+{
+    background-color: #ff4000;
+}
+
+#square1
+{
+    width: 710px;
+    margin: 10px;
+    margin-top: 0px;
+    float: left;
+    
+        
+}
+
+#tile5
+{
+    margin: 10px;
+    width: 688px;
+    height: 725px;
+    float: left;
+    background-color: #e68a1a;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    
+}
+
+#square2
+{
+    width: 750px;
+    margin: 10px;
+    margin-top: 0px;
+    float: left;
+    
+}
+
+#tile6
+{
+    margin: 10px;
+    margin-left: 20px;
+    width: 660px;
+    height: 570px;
+    float: left;
+    background-color: #5744d1;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    padding: 30px;
+}
+
+.fb
+{
+    margin: 10px;
+    margin-left: 20px;
+    width: 350px;
+    height: 104px;
+    float: left;
+    background-color: #4668b3;
+    text-align: center;
+}
+.fb:hover
+{
+    background-color: #3557c2;
+}
+
+.gh
+{
+    margin: 10px;
+    width: 350px;
+    height: 104px;
+    float: left;
+    background-color: black;
+    text-align: center;
+}
+.gh:hover
+{
+    background-color: #222222;
+}
+
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 350px;
+    height: 104px;
+
+}
+
+a.tilelinkhtml5
+{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
