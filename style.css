@@ -9,37 +9,47 @@ body
 
 #container
 {
-    
-    width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    max-width: 1500px;
+    margin: 0px auto;
+        
 }
 
-#rectangle1
+#header
 {
-    width: 1480px;
-    height: 124px;
-    margin: 10px;
-    margin-bottom: 0px;
-    
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+h1
+{
+    font-size: 45px;
+}
+
+nav
+{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    color: mistyrose;   
 }
 
 #rectangle2
 {
-    text-align: center;
+    text-align: end;
+    margin: 10px;
 }
 
 .tile1
 {
-    margin: 10px;
-    width: 350px;
+    width: 250px;
     height: 104px;
-    float: left;
     background-color:#993399 ;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    
 }
+
 .tile1:hover
 {
     background-color: #882288;
@@ -47,13 +57,13 @@ body
 
 .tile2
 {
-    margin: 10px;
-    width: 350px;
+    
+    width: 250px;
     height: 104px;
-    float: left;
     background-color: #009973;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    
 }
 .tile2:hover
 {
@@ -62,13 +72,13 @@ body
 
 .tile3
 {
-    margin: 10px;
-    width: 350px;
+    
+    width: 250px;
     height: 104px;
-    float: left;
     background-color: #ffa31a;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    
 }
 .tile3:hover
 {
@@ -77,35 +87,31 @@ body
 
 .tile4
 {
-    margin: 10px;
-    width: 350px;
+    
+    width: 250px;
     height: 104px;
-    float: left;
     background-color: #ff531a;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    
 }
 .tile4:hover
 {
     background-color: #ff4000;
 }
 
-#square1
+#squaremain
 {
-    width: 710px;
-    margin: 10px;
-    margin-top: 0px;
-    float: left;
-    
-        
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 50%;
 }
 
 #tile5
 {
-    margin: 10px;
-    width: 688px;
+    
+    width: 700px;
     height: 725px;
-    float: left;
     background-color: #e68a1a;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -116,33 +122,35 @@ body
 
 #square2
 {
-    width: 750px;
-    margin: 10px;
-    margin-top: 0px;
-    float: left;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 #tile6
 {
-    margin: 10px;
-    margin-left: 20px;
-    width: 660px;
+    width: 700px;
     height: 570px;
-    float: left;
     background-color: #5744d1;
     font-family: 'Josefin Sans', sans-serif;
     text-align: justify;
     padding: 30px;
 }
 
+.social
+{
+    width: 760px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .fb
 {
-    margin: 10px;
-    margin-left: 20px;
+    
     width: 350px;
     height: 104px;
-    float: left;
     background-color: #4668b3;
     text-align: center;
 }
@@ -153,10 +161,9 @@ body
 
 .gh
 {
-    margin: 10px;
+    
     width: 350px;
     height: 104px;
-    float: left;
     background-color: black;
     text-align: center;
 }
@@ -165,20 +172,9 @@ body
     background-color: #222222;
 }
 
-a.tilelink
-{
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-    width: 350px;
-    height: 104px;
-
-}
-
 a.tilelinkhtml5
 {
     color: #ffffff;
     text-decoration: none;
-    
 }
 
